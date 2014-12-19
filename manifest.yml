@@ -1,0 +1,11 @@
+applications:
+- services:
+  - mongometsales
+  host: polymer
+  disk: 1024M
+  name: polymer 
+  buildpack: https://github.com/Sing-Li/bluemix-bp-meteor
+  path: .
+  domain: mybluemix.net
+  mem: 1024M
+  instances: 1
